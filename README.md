@@ -48,15 +48,3 @@ A full-stack task management application enabling users to register, log in, and
    ```
 
 6. Open your browser and navigate to `http://localhost:5000`
-
-## API Endpoints
-
-### Authentication
-- `POST /api/auth/register` - Register new user
-- `POST /api/auth/login` - Login user
-
-### Tasks
-- `GET /api/tasks` - Get all tasks for logged-in user
-- `POST /api/tasks` - Create new task
-- `PUT /api/tasks/:id` - Update task
-- `DELETE /api/tasks/:id` - Delete task
